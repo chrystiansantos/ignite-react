@@ -1,11 +1,12 @@
-# Dt money 💰
+# Ignews 📰
 
 App desenvolvido com o intuido de se aprofundar em alguns conceitos importantes de React.
 
- - miragejs
- - polished
- - react-modal
- - styled-components
+ - faunadb
+ - next-auth
+ - prismicio
+ - sass
+ - stripe
 
 ## Executando:
 
@@ -25,4 +26,4 @@ Em seguida acesse o seguinte link:
 
 **http://localhost:3000**
 
-![AE2F4556-FD85-4AF2-B6D2-C16850D5F5DD_1_105_c](https://user-images.githubusercontent.com/33062949/213871501-3a78d088-1a82-4869-8c63-192fe1da80e0.jpeg)
+https://user-images.githubusercontent.com/33062949/213871663-c15e2a8f-39cd-4002-8574-a3ea9b2461d0.mov
