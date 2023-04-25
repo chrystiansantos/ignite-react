@@ -24,6 +24,7 @@
     "prettier"
   ],
   "rules": {
+    "import/no-extraneous-dependencies": ["off", {"devDependencies": ["**/*.test.js", "**/*.spec.js"]}],
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
     "react/jsx-props-no-spreading": "off",

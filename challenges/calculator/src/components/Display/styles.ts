@@ -20,10 +20,6 @@ export const Container = styled.div`
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
-
-    span {
-      padding: 0 0.25rem;
-    }
   }
 
   > div {

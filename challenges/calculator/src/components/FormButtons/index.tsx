@@ -11,86 +11,56 @@ export function FormButtons() {
 
   return (
     <Container>
-      <InputButton typeButton="darkPurple" value="ce">
-        <span>CE</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="c">
-        <span>C</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="%" disabled={disablePercent}>
-        <span>%</span>
-      </InputButton>
+      <InputButton typeButton="darkPurple" value="ce" element="CE" />
+      <InputButton typeButton="darkWhite" value="c" element="C" />
+      <InputButton
+        typeButton="darkWhite"
+        value="%"
+        disabled={disablePercent}
+        element="%"
+      />
       <InputButton
         typeButton="darkPurpleWhite"
         value="÷"
         disabled={disabledOperations}
-      >
-        <Divide />
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="7">
-        <span>7</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="8">
-        <span>8</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="9">
-        <span>9</span>
-      </InputButton>
+        element={<Divide />}
+      />
+      <InputButton typeButton="darkWhite" value="7" element="7" />
+      <InputButton typeButton="darkWhite" value="8" element="8" />
+      <InputButton typeButton="darkWhite" value="9" element="9" />
       <InputButton
         typeButton="darkPurpleWhite"
         value="×"
         disabled={disabledOperations}
-      >
-        <X />
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="4">
-        <span>4</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="5">
-        <span>5</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="6">
-        <span>6</span>
-      </InputButton>
+        element={<X />}
+      />
+      <InputButton typeButton="darkWhite" value="4" element="4" />
+      <InputButton typeButton="darkWhite" value="5" element="5" />
+      <InputButton typeButton="darkWhite" value="6" element="6" />
       <InputButton
         typeButton="darkPurpleWhite"
         value="–"
         disabled={disabledOperations}
-      >
-        <Minus />
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="1">
-        <span>1</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="2">
-        <span>2</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="3">
-        <span>3</span>
-      </InputButton>
+        element={<Minus />}
+      />
+      <InputButton typeButton="darkWhite" value="1" element="1" />
+      <InputButton typeButton="darkWhite" value="2" element="2" />
+      <InputButton typeButton="darkWhite" value="3" element="3" />
       <InputButton
         typeButton="darkPurpleWhite"
         value="+"
         disabled={disabledOperations}
-      >
-        <Plus />
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="-/+">
-        <PlusMinus />
-      </InputButton>
-      <InputButton typeButton="darkWhite" value="0">
-        <span>0</span>
-      </InputButton>
-      <InputButton typeButton="darkWhite" value=".">
-        <span>,</span>
-      </InputButton>
+        element={<Plus />}
+      />
+      <InputButton typeButton="darkWhite" value="-/+" element={<PlusMinus />} />
+      <InputButton typeButton="darkWhite" value="0" element="0" />
+      <InputButton typeButton="darkWhite" value="." element="," />
       <InputButton
         typeButton="darkPurpleWhite"
         value="="
         disabled={disabledOperations}
-      >
-        <Equals />
-      </InputButton>
+        element={<Equals />}
+      />
     </Container>
   );
 }

@@ -25,7 +25,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>96/96</span>
+                <span class='fraction'>66/66</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>96/96</span>
+                <span class='fraction'>66/66</span>
             </div>
         
             
@@ -129,67 +129,7 @@
 <a name='L64'></a><a href='#L64'>64</a>
 <a name='L65'></a><a href='#L65'>65</a>
 <a name='L66'></a><a href='#L66'>66</a>
-<a name='L67'></a><a href='#L67'>67</a>
-<a name='L68'></a><a href='#L68'>68</a>
-<a name='L69'></a><a href='#L69'>69</a>
-<a name='L70'></a><a href='#L70'>70</a>
-<a name='L71'></a><a href='#L71'>71</a>
-<a name='L72'></a><a href='#L72'>72</a>
-<a name='L73'></a><a href='#L73'>73</a>
-<a name='L74'></a><a href='#L74'>74</a>
-<a name='L75'></a><a href='#L75'>75</a>
-<a name='L76'></a><a href='#L76'>76</a>
-<a name='L77'></a><a href='#L77'>77</a>
-<a name='L78'></a><a href='#L78'>78</a>
-<a name='L79'></a><a href='#L79'>79</a>
-<a name='L80'></a><a href='#L80'>80</a>
-<a name='L81'></a><a href='#L81'>81</a>
-<a name='L82'></a><a href='#L82'>82</a>
-<a name='L83'></a><a href='#L83'>83</a>
-<a name='L84'></a><a href='#L84'>84</a>
-<a name='L85'></a><a href='#L85'>85</a>
-<a name='L86'></a><a href='#L86'>86</a>
-<a name='L87'></a><a href='#L87'>87</a>
-<a name='L88'></a><a href='#L88'>88</a>
-<a name='L89'></a><a href='#L89'>89</a>
-<a name='L90'></a><a href='#L90'>90</a>
-<a name='L91'></a><a href='#L91'>91</a>
-<a name='L92'></a><a href='#L92'>92</a>
-<a name='L93'></a><a href='#L93'>93</a>
-<a name='L94'></a><a href='#L94'>94</a>
-<a name='L95'></a><a href='#L95'>95</a>
-<a name='L96'></a><a href='#L96'>96</a>
-<a name='L97'></a><a href='#L97'>97</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<a name='L67'></a><a href='#L67'>67</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -268,86 +208,56 @@ export function FormButtons() {
 &nbsp;
   return (
     &lt;Container&gt;
-      &lt;InputButton typeButton="darkPurple" value="ce"&gt;
-        &lt;span&gt;CE&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="c"&gt;
-        &lt;span&gt;C&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="%" disabled={disablePercent}&gt;
-        &lt;span&gt;%&lt;/span&gt;
-      &lt;/InputButton&gt;
+      &lt;InputButton typeButton="darkPurple" value="ce" element="CE" /&gt;
+      &lt;InputButton typeButton="darkWhite" value="c" element="C" /&gt;
+      &lt;InputButton
+        typeButton="darkWhite"
+        value="%"
+        disabled={disablePercent}
+        element="%"
+      /&gt;
       &lt;InputButton
         typeButton="darkPurpleWhite"
         value="÷"
         disabled={disabledOperations}
-      &gt;
-        &lt;Divide /&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="7"&gt;
-        &lt;span&gt;7&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="8"&gt;
-        &lt;span&gt;8&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="9"&gt;
-        &lt;span&gt;9&lt;/span&gt;
-      &lt;/InputButton&gt;
+        element={&lt;Divide /&gt;}
+      /&gt;
+      &lt;InputButton typeButton="darkWhite" value="7" element="7" /&gt;
+      &lt;InputButton typeButton="darkWhite" value="8" element="8" /&gt;
+      &lt;InputButton typeButton="darkWhite" value="9" element="9" /&gt;
       &lt;InputButton
         typeButton="darkPurpleWhite"
         value="×"
         disabled={disabledOperations}
-      &gt;
-        &lt;X /&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="4"&gt;
-        &lt;span&gt;4&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="5"&gt;
-        &lt;span&gt;5&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="6"&gt;
-        &lt;span&gt;6&lt;/span&gt;
-      &lt;/InputButton&gt;
+        element={&lt;X /&gt;}
+      /&gt;
+      &lt;InputButton typeButton="darkWhite" value="4" element="4" /&gt;
+      &lt;InputButton typeButton="darkWhite" value="5" element="5" /&gt;
+      &lt;InputButton typeButton="darkWhite" value="6" element="6" /&gt;
       &lt;InputButton
         typeButton="darkPurpleWhite"
         value="–"
         disabled={disabledOperations}
-      &gt;
-        &lt;Minus /&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="1"&gt;
-        &lt;span&gt;1&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="2"&gt;
-        &lt;span&gt;2&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="3"&gt;
-        &lt;span&gt;3&lt;/span&gt;
-      &lt;/InputButton&gt;
+        element={&lt;Minus /&gt;}
+      /&gt;
+      &lt;InputButton typeButton="darkWhite" value="1" element="1" /&gt;
+      &lt;InputButton typeButton="darkWhite" value="2" element="2" /&gt;
+      &lt;InputButton typeButton="darkWhite" value="3" element="3" /&gt;
       &lt;InputButton
         typeButton="darkPurpleWhite"
         value="+"
         disabled={disabledOperations}
-      &gt;
-        &lt;Plus /&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="-/+"&gt;
-        &lt;PlusMinus /&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="0"&gt;
-        &lt;span&gt;0&lt;/span&gt;
-      &lt;/InputButton&gt;
-      &lt;InputButton typeButton="darkWhite" value="."&gt;
-        &lt;span&gt;,&lt;/span&gt;
-      &lt;/InputButton&gt;
+        element={&lt;Plus /&gt;}
+      /&gt;
+      &lt;InputButton typeButton="darkWhite" value="-/+" element={&lt;PlusMinus /&gt;} /&gt;
+      &lt;InputButton typeButton="darkWhite" value="0" element="0" /&gt;
+      &lt;InputButton typeButton="darkWhite" value="." element="," /&gt;
       &lt;InputButton
         typeButton="darkPurpleWhite"
         value="="
         disabled={disabledOperations}
-      &gt;
-        &lt;Equals /&gt;
-      &lt;/InputButton&gt;
+        element={&lt;Equals /&gt;}
+      /&gt;
     &lt;/Container&gt;
   );
 }
@@ -358,7 +268,7 @@ export function FormButtons() {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-02-18T15:56:16.958Z
+                at 2023-04-24T02:14:22.338Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

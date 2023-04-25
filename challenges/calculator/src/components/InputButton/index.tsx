@@ -6,13 +6,14 @@ import { Container } from './styles';
 interface IInputButtonProps
   extends IInputButtonTypes,
     ButtonHTMLAttributes<HTMLButtonElement> {
-  children: ReactElement;
+  element: ReactElement | string;
   value: string;
 }
 
 export function InputButton({
   children,
   typeButton,
+  element,
   value,
   ...rest
 }: IInputButtonProps) {
@@ -20,7 +21,7 @@ export function InputButton({
 
   return (
     <Container typeButton={typeButton} onClick={() => addCalc(value)} {...rest}>
-      {children}
+      <span>{element}</span>
     </Container>
   );
 }

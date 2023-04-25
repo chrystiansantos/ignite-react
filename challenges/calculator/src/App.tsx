@@ -1,4 +1,4 @@
-import styled, { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 import { CalculationContextProvider } from './context/CalculationContext';
 import { Home } from './pages/Home';
 import { GlobalStyle } from './styles/global';
